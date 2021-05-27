@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.0.0.schema.json
 PackageIdentifier: IrfanSkiljan.IrfanView
-PackageVersion: 4.57
+PackageVersion: 4.58
 MinimumOSVersion: 10.0.0.0
 FileExtensions:
   - ANI
@@ -107,8 +107,8 @@ InstallerSwitches:
 Installers:
   - Architecture: x64
     InstallerType: exe
-    InstallerUrl: https://download.betanews.com/download/967963863-1/iview457_x64_setup.exe
-    InstallerSha256: 6A67F079F8036A30E9E13FD9BAECF0D37DA18106050880A3F12845E445F8786F
+    InstallerUrl: https://download.betanews.com/download/967963863-1/iview458_x64_setup.exe
+    InstallerSha256: 6bfdf8d92a937dde9d672b22e8864ab17fbe86a37b6cb2b4fa68e7bcb99c0861
     InstallerSwitches:
       Custom: /desktop=1 /thumbs=0 /group=1 /allusers=1 /assoc=0
     Scope: machine
@@ -116,8 +116,8 @@ Installers:
     UpgradeBehavior: install
   - Architecture: x64
     InstallerType: exe
-    InstallerUrl: https://download.betanews.com/download/967963863-1/iview457_x64_setup.exe
-    InstallerSha256: 6A67F079F8036A30E9E13FD9BAECF0D37DA18106050880A3F12845E445F8786F
+    InstallerUrl: https://download.betanews.com/download/967963863-1/iview458_x64_setup.exe
+    InstallerSha256: 6bfdf8d92a937dde9d672b22e8864ab17fbe86a37b6cb2b4fa68e7bcb99c0861
     InstallerSwitches:
       Custom: /desktop=1 /thumbs=0 /group=1 /allusers=0 /assoc=0
     Scope: user
@@ -125,8 +125,8 @@ Installers:
     UpgradeBehavior: install
   - Architecture: x86
     InstallerType: exe
-    InstallerUrl: https://download.betanews.com/download/967963863-1/iview457_setup.exe
-    InstallerSha256: B6BE47AE716FF9E69E80F4956D7721A22734054CDBC18704A68F2F88028C2842
+    InstallerUrl: https://download.betanews.com/download/967963863-1/iview458_setup.exe
+    InstallerSha256: b1019557a44b2d0513517d7b147d0c7b22c354dd2816c58940854ca7083e5a61
     InstallerSwitches:
       Custom: /desktop=1 /thumbs=0 /group=1 /allusers=1 /assoc=0
     Scope: machine
@@ -134,8 +134,8 @@ Installers:
     UpgradeBehavior: install
   - Architecture: x86
     InstallerType: exe
-    InstallerUrl: https://download.betanews.com/download/967963863-1/iview457_setup.exe
-    InstallerSha256: B6BE47AE716FF9E69E80F4956D7721A22734054CDBC18704A68F2F88028C2842
+    InstallerUrl: https://download.betanews.com/download/967963863-1/iview458_setup.exe
+    InstallerSha256: b1019557a44b2d0513517d7b147d0c7b22c354dd2816c58940854ca7083e5a61
     InstallerSwitches:
       Custom: /desktop=1 /thumbs=0 /group=1 /allusers=0 /assoc=0
     Scope: user
